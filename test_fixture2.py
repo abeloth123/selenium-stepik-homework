@@ -9,7 +9,7 @@ def browser():
     print("\nstart browser for test..")
     browser = webdriver.Chrome()
     yield browser
-    # Этот код выполнится ПОСЛЕ теста
+    
     print("\nquit browser..")
     browser.quit()
 
