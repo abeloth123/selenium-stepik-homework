@@ -3,7 +3,7 @@ import pytest
 def test_succeed():
     assert True
 
-@pytest.mark.xfail(strict=True)  # <-- Вот здесь добавлен параметр strict=True
+@pytest.mark.xfail(strict=True)  
 def test_not_succeed():
     assert False
 
